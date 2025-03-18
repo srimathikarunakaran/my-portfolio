@@ -1,0 +1,42 @@
+/* Skills Page */
+.skill {
+    margin-top: 70px;
+    text-align: center;
+    gap: 90px;
+    color: aqua;
+    margin-left: 40px;
+    border-radius: 30px;
+
+  }
+  .skillimg{
+    border-end-end-radius: 50px;
+    width: 100%;
+    border: 2px solid rgb(130, 186, 231);
+    padding: 30px;
+    background-color: rgba(11, 51, 104, 0.671);
+
+
+  }
+  
+  /* Added media queries */
+  
+  @media (max-width: 768px) {
+    .skill {
+      gap: 80px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .skill {
+      gap: 25px;
+      margin: 70px;
+    }
+    h1{
+      text-align: center;
+    }
+  }
+
+
+  
+  
+  

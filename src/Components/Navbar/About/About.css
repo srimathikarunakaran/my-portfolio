@@ -1,0 +1,52 @@
+/* About Page */
+
+.about {
+    margin-top: 40px;
+    background-color: #33333328;
+    padding: 30px;
+    border-radius: 30px;
+    border: 2px solid white;
+  }
+  
+  .aboutdesc {
+    margin-top: 40px;
+    padding: 20px;
+  }
+  
+  .abc {
+    border: 2px solid #333;
+    border-radius: 20px;
+    padding: 10px;
+    margin-top: 20px;
+    cursor: pointer;
+    background-color: rgba(11, 51, 104, 0.671);
+  }
+  
+  .abc:hover {
+    color: rgb(68, 76, 80);
+    background-color: #50a9f1a8;
+  }
+  
+  /* Media queries */
+  
+  @media (max-width: 768px) {
+    .aboutdesc {
+      margin-top: 20px;
+    }
+    .abc {
+      margin-top: 10px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .about {
+      margin-top: 20px;
+    }
+    .aboutdesc {
+      margin-top: 10px;
+    }
+    .abc {
+      margin-top: 5px;
+    }
+  }
+  
