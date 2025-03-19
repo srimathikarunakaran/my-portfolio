@@ -27,8 +27,8 @@ export default function About() {
                   <p>I've completed Bachelor of Computer Application in ICW college.</p>
                 </div>
                 <div className="abc">
-                  <h3 className="text-info">Frontend Developer</h3>
-                  <p>I'm a frontend developer with experience in building responsive websites.</p>
+                  <h3 className="text-info">React Web Developer</h3>
+                  <p> React Web developer with experience in building responsive websites.</p>
                 </div>
               </div>
             </Col>
