@@ -1,5 +1,5 @@
 import{ Container, Row, Col} from 'react-bootstrap';
-import Anime from './Anime.png'
+import Anime from './Anime.webp'
 
 export default function Hero()
 {
@@ -20,7 +20,7 @@ export default function Hero()
               </a>
             </Col>
             <Col sm={12} md={6} className='heroimg' >
-              <img src={Anime} alt="Anime" className='img-fluid w-75' />
+              <img src={Anime} alt="Anime" className='img-fluid w-75 rounded-5' />
             </Col>
           </Row>
         </Container>
