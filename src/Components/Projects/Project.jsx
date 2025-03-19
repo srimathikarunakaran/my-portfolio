@@ -15,7 +15,7 @@ export default function Project() {
               <h2 className="text-info">Seogram </h2>
               <p>Recreated the Seogram website using HTML and CSS, <br />demonstrating my skills in frontend development and design replication.</p>
               <Button variant="info">
-              <a href="https://github.com/srimathikarunakaran/SeoGram-Website.git">check here</a>
+              <a href="https://seogram-first-website-project.netlify.app/">check here</a>
               </Button>
             </Col>
             <Col style={{ textAlign: "center", paddingTop: "40px" }}>
@@ -24,7 +24,7 @@ export default function Project() {
               <p>Built a Pizza Shop website using React and Bootstrap, <br />showcasing my skills in frontend development and responsive design</p>
               
               <Button variant="info">
-              <a href="https://github.com/srimathikarunakaran/Pizza-Shop.git">check here</a>
+              <a href="https://pizza-shop-react-boot-web.netlify.app/">check here</a>
 
               </Button>
             </Col>
