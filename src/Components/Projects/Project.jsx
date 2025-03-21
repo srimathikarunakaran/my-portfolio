@@ -28,7 +28,7 @@ export default function Project() {
               <p>Built a Exam Time Table website For 10th And 12th students using React and Bootstrap, <br />showcasing my skills in frontend development and responsive design</p>
               
               <Button variant="info">
-              <a href="https://react-bootstrap-student-time-table.netlify.app/">check here</a>
+              <a href="https://mini-project-examtime-students.netlify.app/">check here</a>
 
               </Button>
             </Col>
@@ -38,7 +38,7 @@ export default function Project() {
               <h2 className="text-info">Seogram (HTML,CSS) </h2>
               <p>Recreated the Seogram website using HTML and CSS, <br />demonstrating my skills in frontend development and design replication.</p>
               <Button variant="info">
-              <a href="https://seogram-first-website-project.netlify.app/">check here</a>
+              <a href="https://seogram-recreated.netlify.app/">check here</a>
               </Button>
             </Col>
             
