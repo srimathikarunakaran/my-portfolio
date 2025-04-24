@@ -1,5 +1,4 @@
 import { Col, Container, Row, Button } from "react-bootstrap";
-import seogram from './seogram.png';
 import pizza from './pizza.png';
 import time from './time.png';
 import './Project.css'
@@ -8,9 +7,9 @@ export default function Project() {
   return (
     <>
       <section id="project">
-        <Container fluid>
+        <Container >
           <h1 className="text-info fw-bolder mt-5">Projects</h1>
-          <Row className="project" xs={1} md={3}>
+          <Row className="project"  xs={1} md={3} >
           <Col className="pro" style={{ textAlign: "center", paddingTop: "40px" }}>
               <img src={pizza} alt="" className="img-fluid" />
               <h2 className="text-info">Pizza Shop(React-Bootstrap)</h2>
@@ -33,14 +32,7 @@ export default function Project() {
               </Button>
             </Col>
 
-            <Col className="pro" style={{ textAlign: "center", paddingTop: "40px" }}>
-              <img src={seogram} alt="" className="img-fluid" />
-              <h2 className="text-info">Seogram (HTML,CSS) </h2>
-              <p>Recreated the Seogram website using HTML and CSS, <br />demonstrating my skills in frontend development and design replication.</p>
-              <Button variant="info">
-              <a href="https://seogram-recreated.netlify.app/">check here</a>
-              </Button>
-            </Col>
+            
             
           </Row>
         </Container>

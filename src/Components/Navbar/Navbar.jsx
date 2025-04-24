@@ -6,8 +6,8 @@ import Navbar from 'react-bootstrap/Navbar';
 export default function Header() {
   return (
     <>
-      <Navbar expand="lg" className="navbar-expand-lg" >
-        <Container fluid className="border border-light m-3 rounded-bottom-4">
+      <Navbar expand="lg" className="navbar-expand-lg fixed-top" >
+        <Container fluid className="border border-light m-3 rounded-bottom-4 bg-dark bg-opacity-25">
           <Navbar.Brand href="#home" className="text-white">
             Portfolio
           </Navbar.Brand>

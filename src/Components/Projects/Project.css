@@ -4,6 +4,7 @@
     border-radius: 20px;
     background-color: rgba(0, 0, 0, 0.459);
     padding: 30px;
+    justify-content: space-evenly;
   }
   .pro-btn{
     background-color: rgb(71, 212, 212);
@@ -20,6 +21,7 @@
     padding: 20px;
     background-color: rgba(7, 7, 53, 0.432);
   }
+  
   /* Add this to make the images responsive */
   .img-fluid {
     max-width: 100%;

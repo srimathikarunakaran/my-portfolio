@@ -14,8 +14,13 @@
     border: 2px solid rgb(130, 186, 231);
     padding: 30px;
     background-color: rgba(11, 51, 104, 0.671);
+    cursor: pointer;
 
 
+  }
+  .skillimg:hover{
+    color: rgb(35, 37, 37);
+    background-color: #50a9f1a8;
   }
   
   /* Added media queries */
