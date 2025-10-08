@@ -1,6 +1,6 @@
 import { Col, Container, Row, Button } from "react-bootstrap";
 import pizza from './pizza.png';
-import time from './time.png';
+import weather from './weather.jpeg'
 import './Project.css'
 
 export default function Project() {
@@ -22,12 +22,13 @@ export default function Project() {
             </Col>
 
             <Col className="pro" style={{ textAlign: "center", paddingTop: "40px", }}>
-              <img src={time} alt="" className="img-fluid" />
-              <h2 className="text-info">Exam TimeTable(React-Bootstrap)</h2>
-              <p>Built a Exam Time Table website For 10th And 12th students using React and Bootstrap, <br />showcasing my skills in frontend development and responsive design</p>
+              <img src={weather} alt="" className="img-fluid" />
+              <h2 className="text-info">Real-Time Weather App</h2>
+              <p>Built a dynamic weather application to provide live weather updates for any location. <br />
+               Focused on user-friendly interface, responsive layout, and seamless API integration.</p>
               
               <Button variant="info">
-              <a href="https://mini-project-examtime-students.netlify.app/">check here</a>
+              <a href="https://simple-1-weather-app.netlify.app/">check here</a>
 
               </Button>
             </Col>
