@@ -28,7 +28,7 @@ export default function Project() {
                Focused on user-friendly interface, responsive layout, and seamless API integration.</p>
               
               <Button variant="info">
-              <a href="https://weather-app-mini-pro.netlify.app/">check here</a>
+              <a href="https://mini-weather-app-rct.netlify.app/">check here</a>
 
               </Button>
             </Col>
