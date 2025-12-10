@@ -1,6 +1,7 @@
 import { Col, Container, Row, Button } from "react-bootstrap";
 import pizza from './pizza.png';
-import weather from './weather.jpeg'
+import weather from './weather.jpeg';
+import spotify from './spotify.jpeg';
 import './Project.css'
 
 export default function Project() {
@@ -35,13 +36,13 @@ export default function Project() {
 
 
             <Col className="pro" style={{ textAlign: "center", paddingTop: "40px",width:"350px" }}>
-              <img src={weather} alt="" className="img-fluid" />
+              <img src={spotify} alt="" className="img-fluid" />
               <h2 className="text-info">Spotify-Clone</h2>
-              <p>Built a dynamic weather application to provide live weather updates for any location. <br />
-               Focused on user-friendly interface, responsive layout, and seamless API integration.</p>
+              <p>Built “A fully responsive Spotify clone built with modern web technologies, featuring dynamic music playback and intuitive UI. <br />
+               Designed to replicate core Spotify functionalities for a seamless user experience.</p>
               
               <Button variant="info">
-              <a href="https://mini-weather-app-rct.netlify.app/">check here</a>
+              <a href="https://spotify-clone-flame-alpha.vercel.app/">check here</a>
 
               </Button>
             </Col>

@@ -7,6 +7,7 @@
     justify-content: space-around;
     padding: 20px;
      transition: 0.7s ease;
+
     
   }
   .project:hover {
@@ -27,7 +28,7 @@
     border: 2px solid rgba(255, 255, 255, 0.247);
     border-radius: 30px;
     padding: 20px;
-    background-color: rgba(7, 7, 53, 0.432);
+    background-color: rgba(4, 30, 65, 0.247);
   }
   
   /* Add this to make the images responsive */
