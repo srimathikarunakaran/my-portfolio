@@ -1,11 +1,19 @@
 .project {
     margin-top: 70px;
-    border: 2px solid white;
+    border: 1px solid rgba(211, 184, 214, 0.274);
     border-radius: 20px;
-    background-color: rgba(0, 0, 0, 0.459);
-    padding: 30px;
-    justify-content: space-evenly;
+    background-color: #33333328;
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+     transition: 0.7s ease;
+    
   }
+  .project:hover {
+  transform: translateY(-10px) scale(1.03);
+  box-shadow: 0 12px 12px rgba(36, 94, 255, 0.281);
+}
+  
   .pro-btn{
     background-color: rgb(71, 212, 212);
     color: rgb(34, 32, 30);

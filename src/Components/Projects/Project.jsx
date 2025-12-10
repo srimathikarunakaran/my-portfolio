@@ -7,10 +7,10 @@ export default function Project() {
   return (
     <>
       <section id="project">
-        <Container >
+        <Container  >
           <h1 className="text-info fw-bolder mt-5">Projects</h1>
           <Row className="project"  xs={1} md={3} >
-          <Col className="pro" style={{ textAlign: "center", paddingTop: "40px" }}>
+          <Col className="pro" style={{ textAlign: "center", paddingTop: "40px", width:"350px" }}>
               <img src={pizza} alt="" className="img-fluid" />
               <h2 className="text-info">Pizza Shop(React-Bootstrap)</h2>
               <p>Built a Pizza Shop website using React and Bootstrap, <br />showcasing my skills in frontend development and responsive design</p>
@@ -21,9 +21,22 @@ export default function Project() {
               </Button>
             </Col>
 
-            <Col className="pro" style={{ textAlign: "center", paddingTop: "40px", }}>
+            <Col className="pro" style={{ textAlign: "center", paddingTop: "40px",width:"350px" }}>
               <img src={weather} alt="" className="img-fluid" />
               <h2 className="text-info">Real-Time Weather App</h2>
+              <p>Built a dynamic weather application to provide live weather updates for any location. <br />
+               Focused on user-friendly interface, responsive layout, and seamless API integration.</p>
+              
+              <Button variant="info">
+              <a href="https://mini-weather-app-rct.netlify.app/">check here</a>
+
+              </Button>
+            </Col>
+
+
+            <Col className="pro" style={{ textAlign: "center", paddingTop: "40px",width:"350px" }}>
+              <img src={weather} alt="" className="img-fluid" />
+              <h2 className="text-info">Spotify-Clone</h2>
               <p>Built a dynamic weather application to provide live weather updates for any location. <br />
                Focused on user-friendly interface, responsive layout, and seamless API integration.</p>
               

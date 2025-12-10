@@ -1,11 +1,11 @@
 import { Container } from "react-bootstrap";
 import Contact from "./Components/Contact/Contact";
-import About from "./Components/Navbar/About/About";
-import Hero from "./Components/Navbar/Hero/Hero";
 import Header from "./Components/Navbar/Navbar";
 import Project from "./Components/Projects/Project";
 import Skills from "./Components/Skills/Skills";
 import './index.css'
+import About from "./Components/About/About";
+import Hero from "./Components/Hero/Hero";
 
 function App()
 {
@@ -16,9 +16,9 @@ function App()
 
         <Header />
 
-       <Hero />
+        <Hero />
 
-<About />
+    <About />
 
 <Skills />
 

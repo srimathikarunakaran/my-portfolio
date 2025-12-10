@@ -6,6 +6,10 @@
     color: aqua;
     margin-left: 40px;
     border-radius: 30px;
+    
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+ 
+
 
   }
   .skillimg{
@@ -20,7 +24,8 @@
   }
   .skillimg:hover{
     color: rgb(35, 37, 37);
-    background-color: #50a9f1a8;
+     transform: translateY(-10px);
+  box-shadow: 0 8px 25px rgba(0, 255, 255, 0.3);
   }
   
   /* Added media queries */
