@@ -24,11 +24,15 @@
     border: white;
 
   }
+  
   .pro{
     border: 2px solid rgba(255, 255, 255, 0.247);
     border-radius: 30px;
     padding: 20px;
     background-color: rgba(4, 30, 65, 0.247);
+  }
+  a{
+    text-decoration: none;
   }
   
   /* Add this to make the images responsive */

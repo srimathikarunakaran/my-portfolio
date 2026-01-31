@@ -1,6 +1,6 @@
 import { Col, Container, Row, Button } from "react-bootstrap";
 import pizza from './pizza.png';
-import weather from './weather.jpeg';
+import weather from "./weather-img.jpeg";
 import spotify from './spotify.jpeg';
 import './Project.css'
 
@@ -11,16 +11,7 @@ export default function Project() {
         <Container  >
           <h1 className="text-info fw-bolder mt-5">Projects</h1>
           <Row className="project"  xs={1} md={3} >
-          <Col className="pro" style={{ textAlign: "center", paddingTop: "40px", width:"350px" }}>
-              <img src={pizza} alt="" className="img-fluid" />
-              <h2 className="text-info">Pizza Shop(React-Bootstrap)</h2>
-              <p>Built a Pizza Shop website using React and Bootstrap, <br />showcasing my skills in frontend development and responsive design</p>
-              
-              <Button variant="info">
-              <a href="https://pizza-shop-react-boot-web.netlify.app/">check here</a>
-
-              </Button>
-            </Col>
+          
 
             <Col className="pro" style={{ textAlign: "center", paddingTop: "40px",width:"350px" }}>
               <img src={weather} alt="" className="img-fluid" />
@@ -30,6 +21,17 @@ export default function Project() {
               
               <Button variant="info">
               <a href="https://mini-weather-app-rct.netlify.app/">check here</a>
+
+              </Button>
+            </Col>
+
+            <Col className="pro" style={{ textAlign: "center", paddingTop: "40px", width:"350px" }}>
+              <img src={pizza} alt="" className="img-fluid" />
+              <h2 className="text-info">Pizza Shop(React-Bootstrap)</h2>
+              <p>Built a Pizza Shop website using React and Bootstrap, <br />showcasing my skills in frontend development and responsive design</p>
+              
+              <Button variant="info">
+              <a href="https://pizza-shop-react-boot-web.netlify.app/">check here</a>
 
               </Button>
             </Col>

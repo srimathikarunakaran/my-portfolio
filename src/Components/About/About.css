@@ -6,11 +6,11 @@
     padding: 30px;
     border-radius: 30px;
    border: 1px solid rgba(255, 255, 255, 0.123);
-   transition: 0.7s ease;
+   transition: 0.1s ease;
   }
   .about:hover {
     transform: translateY(-10px) scale(1.03);
-  box-shadow: 0 12px 12px rgba(36, 94, 255, 0.281);
+  box-shadow: 0 5px 5px rgba(36, 94, 255, 0.281);
 
   }
   

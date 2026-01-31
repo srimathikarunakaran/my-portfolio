@@ -13,7 +13,7 @@ export default function Hero()
               <br />
               <br />
               <p className='desc' style={{ fontSize: '1.2rem' }}>
-                To showcase my foundation in front-end development, highlighting my skills in HTML, CSS, JavaScript, and modern frameworks, and demonstrating my enthusiasm for building innovative web experiences.
+                A passionate React.js developer with a solid foundation in HTML, CSS, and JavaScript. I love creating responsive, interactive, and visually appealing web applications, and I am always eager to explore new tools and techniques to build innovative digital experiences.
               </p>
               <a href="mailto:karunakaransrimathi3@gmail.com" className='descbtn'>
                 Contact Me
